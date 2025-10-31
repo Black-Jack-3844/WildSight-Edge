@@ -1,0 +1,3 @@
+WildSight Edge is a compact, end-to-end computer vision pipeline purpose-built for constrained edge hardware. It trains a lightweight CNN (optionally ResNet18) to recognize three wildlife classes—elephant, monkey, and rabbit—then exports the model to a single-file ONNX (opset 18) and performs CPU-only inference using ONNX Runtime. The system features deterministic preprocessing, a reproducible portable Python 3.12 environment, and batch tooling to generate annotated predictions across entire test folders.
+
+WildSight Edge demonstrates practical ML engineering under real-world constraints—model portability, environment isolation, and deployment reliability—strengthening both technical skills and academic grounding in edge AI and applied computer vision.
